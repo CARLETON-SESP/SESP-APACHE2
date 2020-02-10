@@ -1,0 +1,9 @@
+
+#!/usr/bin/env python
+print "Access-Control-Allow-Origin: *"
+print "Content-type: application/json\n"
+
+print "{\"works\"}"
+
+import os
+os.system('bash writeFile.sh')

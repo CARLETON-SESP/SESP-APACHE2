@@ -1,0 +1,10 @@
+#!/bin/sh
+WEATHER=$1
+WEATHER2=$2
+echo "Content-type: application/json"
+echo
+
+echo {\"working\"}
+echo
+
+/bin/bash /usr/local/apache2/cgi-bin/writeFile.sh $WEATHER $WEATHER2
